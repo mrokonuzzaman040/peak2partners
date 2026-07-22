@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="peak2partners">
+  <defs>
+    <linearGradient id="f-peakFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfeaff"/>
+      <stop offset="1" stop-color="#2f8fd6"/>
+    </linearGradient>
+    <linearGradient id="f-peakFrontShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fc3ee"/>
+      <stop offset="1" stop-color="#0b35b3"/>
+    </linearGradient>
+    <linearGradient id="f-peakBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8da4d8"/>
+      <stop offset="1" stop-color="#33437a"/>
+    </linearGradient>
+    <radialGradient id="f-apexGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#65c1ff" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#65c1ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="f-connector" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#65c1ff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#65c1ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="14" fill="#00082a"/>
+
+  <g transform="translate(10,15)">
+    <polygon points="32,14 20,36 44,36" fill="url(#f-peakBack)"/>
+    <circle cx="32" cy="14" r="1.6" fill="#65c1ff" fill-opacity=".7"/>
+    <line x1="16" y1="6" x2="32" y2="14" stroke="url(#f-connector)" stroke-width="1.4" stroke-linecap="round"/>
+    <polygon points="16,6 4,36 16,36" fill="url(#f-peakFront)"/>
+    <polygon points="16,6 16,36 28,36" fill="url(#f-peakFrontShade)"/>
+    <circle cx="16" cy="6" r="9" fill="url(#f-apexGlow)"/>
+    <circle cx="16" cy="6" r="2.6" fill="#f1f4fe"/>
+    <circle cx="16" cy="6" r="1.1" fill="#65c1ff"/>
+  </g>
+</svg>

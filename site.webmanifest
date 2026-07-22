@@ -1,0 +1,21 @@
+{
+  "name": "peak2partners",
+  "short_name": "peak2partners",
+  "description": "The exclusive CPS affiliate network. 4,000+ offers. Weekly payouts since 2010.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#00082a",
+  "theme_color": "#00082a",
+  "icons": [
+    {
+      "src": "/assets/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

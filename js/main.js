@@ -305,51 +305,51 @@ const offers = [
 ];
 
 const features = [
-  { color: 'var(--sp-g)', title: 'Better payouts', text: 'Exclusive, high-converting offers at rates above network standard. And when your volume earns it, ask for a bump. We say yes more than we say no.' },
-  { color: 'var(--sp-b)', title: 'Weekly payments', text: 'Every single week, backed by a fifteen-year record of never missing one.' },
-  { color: 'var(--accent)', title: '4,000+ offers', text: 'Hot lists, exclusives and top performers, organized with full details in one dashboard.' },
-  { color: 'var(--sp-y)', title: 'VIP treatment', text: 'You are a partner, not a ticket number. Genuine five-star service as standard.' },
-  { color: 'var(--sp-r)', title: 'Best-in-class tech', text: 'Everflow tracking on every click, automated payments on every sale.' },
-  { color: 'var(--blue)', title: 'Personal approach', text: 'Chat directly with the people who run the network.' },
+  { color: 'var(--sp-g)', title: 'Superior commissions', text: 'High-converting, exclusive offers at rates that beat the network norm. When your volume justifies it, request a bump. We approve far more often than we decline.' },
+  { color: 'var(--sp-b)', title: 'Seven-day payouts', text: 'Every single week, supported by fifteen years of never missing a single payment.' },
+  { color: 'var(--accent)', title: '4,000+ opportunities', text: 'Hot lists, exclusives, and top performers, neatly organized with full details inside one dashboard.' },
+  { color: 'var(--sp-y)', title: 'Premium support', text: 'You are a partner, not a ticket. Genuine five-star care as standard practice.' },
+  { color: 'var(--sp-r)', title: 'Top-tier tracking', text: 'Everflow monitoring on every click, automated remittance on every sale.' },
+  { color: 'var(--blue)', title: 'Direct access', text: 'Message the people who run the network directly.' },
 ];
 
 const chatMessages = [
-  { from: 'them', text: 'Hey — can we get offer 18327 approved for our push traffic?' },
-  { from: 'us', text: 'Approved. Also bumped your payout 15% given last month’s volume.' },
-  { from: 'them', text: 'Appreciate it. When does this week’s payout land?' },
-  { from: 'us', text: 'Wednesday. On time and in full, same as the last fifteen years.' },
+  { from: 'them', text: 'Hey — can we get offer 18327 greenlit for our push traffic?' },
+  { from: 'us', text: 'Done. Also raised your payout 15% based on last month’s volume.' },
+  { from: 'them', text: 'Thanks. When does this week’s commission arrive?' },
+  { from: 'us', text: 'Wednesday. On schedule and in full, same as the last fifteen years.' },
 ];
 
 const stats = [
   { num: 4000, suffix: '+', label: 'Live offers' },
-  { num: 15, suffix: '+', label: 'Years, never missed a payout' },
-  { num: 52, suffix: '', label: 'Payouts a year' },
+  { num: 15, suffix: '+', label: 'Years of on-time payouts' },
+  { num: 52, suffix: '', label: 'Payouts per year' },
   { num: 37000000, suffix: '+', label: 'Sales delivered' },
 ];
 
 const reviews = [
-  { quote: 'The best network that pays like clockwork. Support actually answers.', author: 'Shawan' },
-  { quote: 'Payouts on time every single week for two years straight. Rare in this industry.', author: 'Leon G.' },
-  { quote: 'Offer approvals same day, payout bumps when we ask. Feels like a real partnership.', author: 'Masha' },
-  { quote: 'Best-converting exclusives I’ve run. Dashboard is clean and fast.', author: 'Daniel K.' },
-  { quote: 'Switched from a network that missed payments twice. Guru hasn’t missed once.', author: 'Priya R.' },
-  { quote: 'Account manager knows our traffic better than we do. Genuinely helpful.', author: 'Tomas V.' },
+  { quote: 'The best network for prompt payments. Support actually responds.', author: 'Shawan' },
+  { quote: 'Commissions arrive every single week for two years running. Uncommon in this industry.', author: 'Leon G.' },
+  { quote: 'Offers approved same day, payout bumps when we request them. It feels like a real alliance.', author: 'Masha' },
+  { quote: 'Best-converting exclusives I have run. The dashboard is clean and fast.', author: 'Daniel K.' },
+  { quote: 'Moved from a network that skipped payments twice. Guru has not missed once.', author: 'Priya R.' },
+  { quote: 'Account manager understands our traffic better than we do. Genuinely helpful.', author: 'Tomas V.' },
 ];
 
 const benefits = [
-  { title: 'Scale', text: 'Hundreds of vetted traffic partners ready to push volume from day one.' },
-  { title: 'Integrity', text: 'Every partner runs through a multi-point identity and quality review.' },
-  { title: 'Control', text: 'Set your own caps, approve traffic sources, adjust payouts in real time.' },
-  { title: 'Quality', text: 'We reject more affiliates than we accept. Only proven earners get in.' },
-  { title: 'Insight', text: 'Full funnel reporting so you see exactly where every sale came from.' },
+  { title: 'Scale', text: 'Hundreds of screened traffic partners ready to drive volume from day one.' },
+  { title: 'Integrity', text: 'Every partner passes a multi-point identity and quality review.' },
+  { title: 'Control', text: 'Set your own caps, approve traffic sources, and adjust payouts in real time.' },
+  { title: 'Quality', text: 'We decline more affiliates than we accept. Only proven earners get in.' },
+  { title: 'Insight', text: 'Full-funnel reporting so you know exactly where every sale originated.' },
   { title: 'Growth', text: 'Fifteen years of relationships across every major traffic vertical.' },
 ];
 
 const securityPoints = [
-  'Multi-point proof of identity for every affiliate before onboarding.',
-  'Extensive interview process, not a self-serve signup form.',
-  'Ongoing traffic quality monitoring across every live offer.',
-  'Dedicated account manager reviewing performance weekly.',
+  'Multi-point identity verification for every affiliate before onboarding.',
+  'In-depth interview process, not a self-service signup form.',
+  'Ongoing traffic quality checks across every live offer.',
+  'Dedicated account manager reviewing performance each week.',
 ];
 
 // ===== DOM helper =====

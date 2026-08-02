@@ -368,7 +368,7 @@ const reviews = [
   { quote: 'Commissions arrive every single week for two years running. Uncommon in this industry.', author: 'Leon G.' },
   { quote: 'Offers approved same day, payout bumps when we request them. It feels like a real alliance.', author: 'Masha' },
   { quote: 'Best-converting exclusives I have run. The dashboard is clean and fast.', author: 'Daniel K.' },
-  { quote: 'Moved from a network that skipped payments twice. Guru has not missed once.', author: 'Priya R.' },
+  { quote: 'Moved from a network that skipped payments twice. Peak2Partners has not missed once.', author: 'Priya R.' },
   { quote: 'Account manager understands our traffic better than we do. Genuinely helpful.', author: 'Tomas V.' },
 ];
 

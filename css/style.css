@@ -7,8 +7,8 @@
   --ink2:#c7d1ec;
   --dim:#8d99be;
   --faint:#5d6890;
-  --accent:#65c1ff;
-  --blue:#0b35b3;
+  --accent:#e2a13c;
+  --bronze:#6b3f0a;
   --sp-r:#f23d26;
   --sp-y:#ffc200;
   --sp-g:#42bc78;
@@ -101,7 +101,10 @@ h3{font-size:1.15rem;font-weight:500}
   height:76px;
   flex-wrap:nowrap;
 }
-.logo svg{height:26px;width:auto;display:block}
+.logo{display:flex;align-items:center;gap:.5rem}
+.logo-mark{height:28px;width:auto;display:block}
+.logo-text{font-family:var(--mono);font-size:1.25rem;font-weight:500;letter-spacing:-.5px;color:var(--ink);white-space:nowrap}
+.logo-2{color:var(--accent);font-weight:700}
 .main-nav{
   display:flex;align-items:center;gap:2rem;
   flex:1;
@@ -238,7 +241,7 @@ h3{font-size:1.15rem;font-weight:500}
   line-height:1.4;
 }
 .chat-msg.them{background:var(--surf2);color:var(--ink2);align-self:flex-start}
-.chat-msg.us{background:var(--blue);color:var(--ink);align-self:flex-end}
+.chat-msg.us{background:var(--bronze);color:var(--ink);align-self:flex-end}
 
 /* ===== Stats ===== */
 .stats{padding:4rem 0;background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -298,7 +301,9 @@ h3{font-size:1.15rem;font-weight:500}
   gap:2rem;
   padding-bottom:3rem;
 }
-.footer-brand svg{height:22px;width:auto;display:block;margin-bottom:1rem}
+.footer-brand .logo{margin-bottom:1rem}
+.footer-brand .logo-mark{height:24px}
+.footer-brand .logo-text{font-size:1.1rem}
 .footer-brand p{color:var(--dim);font-size:.88rem;line-height:1.5}
 .social-icons{display:flex;gap:.7rem;margin-top:1.2rem}
 .social-icons a{

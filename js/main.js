@@ -287,10 +287,46 @@ function attachTilt(selector, strength = 10) {
 // ===== Mobile nav toggle =====
 const burger = document.getElementById('burger');
 const mainNav = document.getElementById('mainNav');
-burger.addEventListener('click', () => {
-  mainNav.classList.toggle('open');
-  burger.classList.toggle('active');
-});
+
+function setMenuOpen(open) {
+  mainNav.classList.toggle('open', open);
+  burger.classList.toggle('active', open);
+  burger.setAttribute('aria-expanded', String(open));
+  document.body.style.overflow = open ? 'hidden' : '';
+}
+
+if (burger && mainNav) {
+  burger.setAttribute('aria-controls', 'mainNav');
+  burger.setAttribute('aria-expanded', 'false');
+
+  burger.addEventListener('click', () => {
+    setMenuOpen(!mainNav.classList.contains('open'));
+  });
+
+  mainNav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => setMenuOpen(false));
+  });
+
+  document.addEventListener('click', (e) => {
+    if (
+      mainNav.classList.contains('open') &&
+      !mainNav.contains(e.target) &&
+      !burger.contains(e.target)
+    ) {
+      setMenuOpen(false);
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && mainNav.classList.contains('open')) {
+      setMenuOpen(false);
+    }
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 900) setMenuOpen(false);
+  });
+}
 
 // ===== Data =====
 const offers = [
